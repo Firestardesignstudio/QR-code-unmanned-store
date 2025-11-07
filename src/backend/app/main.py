@@ -1,0 +1,1 @@
+ python\nfrom fastapi import FastAPI, HTTPException\nfrom pydantic import BaseModel\n\napp = FastAPI(title="Unmanned Store API")\n\nclass QR(BaseModel):\n    code: str\n    device: str\n\n@app.post("/auth/verify-qr")\ndef verify(qr: QR):\n    if qr.code.startswith("DEMO-"):\n        return {"ok": True}\n    raise HTTPException(status_code=401, detail="invalid")\n
