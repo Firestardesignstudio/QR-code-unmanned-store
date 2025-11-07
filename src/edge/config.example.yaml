@@ -1,0 +1,1 @@
+yaml\nDEVICE_ID: "store-raspi-01"\nCAMERA_ID: 0\nBACKEND_URL: "http://localhost:8000"\nRETRY_LIMIT: 3\n
