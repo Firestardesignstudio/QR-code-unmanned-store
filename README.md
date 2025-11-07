@@ -19,16 +19,16 @@ Designed for small-scale self-checkout shops, pop-ups, or community kiosks.
 [ Customer QR ]
         │
         ▼
- ┌─────────────┐
+ ┌──────────────┐
  │ Raspberry Pi │  → Local detection (QR, IR beam)
- └─────────────┘
+ └───────── ────┘
         │
         ▼
- ┌─────────────┐
+ ┌──────────────────┐
  │  FastAPI Backend │  → QR verification / Logs / Inventory
- └─────────────┘
+ └──────────────────┘
         │
         ▼
- ┌─────────────┐
+ ┌─────────────────────┐
  │ Web Admin (Next.js) │  → Dashboard & evidence viewer
- └─────────────┘
+ └─────────────────────┘
