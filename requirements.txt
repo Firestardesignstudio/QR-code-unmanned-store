@@ -1,0 +1,6 @@
+opencv-python
+numpy
+pyzbar
+reportlab
+RPi.GPIO; platform_system=="Linux"
+mfrc522
