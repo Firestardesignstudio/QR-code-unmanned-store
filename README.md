@@ -32,3 +32,10 @@ Designed for small-scale self-checkout shops, pop-ups, or community kiosks.
  ┌─────────────────────┐
  │ Web Admin (Next.js) │  → Dashboard & evidence viewer
  └─────────────────────┘
+
+---
+
+## 📚 Documentation
+
+- [System Architecture](./docs/architecture.md)
+- [Operations Guide](./docs/operations.md)
